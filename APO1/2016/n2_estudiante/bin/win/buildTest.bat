@@ -36,6 +36,6 @@ cd ../classes
 
 jar cf ../lib/estudianteTest.jar uniandes/* -C ../data .
 
-cd ../../bin
+cd ../../bin/win
 
 pause

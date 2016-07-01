@@ -53,7 +53,7 @@ public class DialogoNotaCurso extends JDialog {
 	// -----------------------------------------------------------------
 
 	/**
-	 * Crea el Di�logo donde se organizar�n los paneles de ingreso de una nota
+	 * Crea el Dialogo donde se organizarán los paneles de ingreso de una nota
 	 * @param elPadre - instancia del panel contendor - elPadre!=null
 	 */
 	public DialogoNotaCurso(InterfazEstudiante elPadre) {
@@ -61,12 +61,12 @@ public class DialogoNotaCurso extends JDialog {
 		padre = elPadre;
 		curso = null;
 
-		// Configuraci�n del di�logo
+		// Configuración del diálogo
 		setTitle("Registro Nota");
 		setBackground(Color.white);
 		setLayout(new BorderLayout());
 
-		// Paneles del di�logo
+		// Paneles del dialogo
 		panelRegistrarNota = new PanelRegistrarNota();
 		panelBotonRegistrarNota = new PanelBotonRegistrarNota(this);
 		add(panelRegistrarNota, BorderLayout.NORTH);
@@ -97,7 +97,7 @@ public class DialogoNotaCurso extends JDialog {
 
 	/**
 	 * Retorna un curso calificado
-	 * @return curso con calificaci�n
+	 * @return curso con calificación
 	 */
 	public Curso darCurso() {
 

@@ -26,8 +26,8 @@ REM ---------------------------------------------------------
 
 cd source
 
-javac -nowarn -d ../classes/ uniandes/cupi2/estudiante/interfaz/*.java
-javac -nowarn -d  ../classes/ uniandes/cupi2/estudiante/mundo/*.java
+javac -encoding utf8 -nowarn -d ../classes/ uniandes/cupi2/estudiante/interfaz/*.java
+javac -encoding utf8 -nowarn -d  ../classes/ uniandes/cupi2/estudiante/mundo/*.java
 
 
 REM ---------------------------------------------------------
@@ -38,6 +38,6 @@ cd ..
 cd classes
 jar cf ../lib/estudiante.jar uniandes/*
 
-cd ../bin
+cd ../bin/win
 
 pause
