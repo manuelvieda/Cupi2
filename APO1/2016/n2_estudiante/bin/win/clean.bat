@@ -18,4 +18,4 @@ cd ../..
 del classes\* /s /q 
 del lib\estudiante.jar /s /q 
 
-cd bin
+cd bin/win

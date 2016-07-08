@@ -19,4 +19,4 @@ cd ../../test
 del classes\* /s /q 
 del lib\estudianteTest.jar /s /q 
 
-cd ../bin
+cd ../bin/win
